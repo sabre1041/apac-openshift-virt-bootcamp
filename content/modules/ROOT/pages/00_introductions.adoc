@@ -1,0 +1,46 @@
+= APAC OpenShift Virtualization Bootcamp
+
+Welcome to the OpenShift Virtualization Bootcamp! In this hands on, bootcamp, we will cover everything you need to know to get started with OpenShift Virtualization, from the basics to advanced topics. You will also see how the Ansible for OpenShift Virtualization Migration solution can help you streamline and automate your migrations and day-2 operations.
+
+[IMPORTANT]
+====
+This content was part of the 2025 Emerging Tech Experience (ETX) program and has been repurposed for this bootcamp. However, since some of the content, including infrastructure, is being reused, you may still see references to ETX. This bootcamp is not associated with the ETX program and is being offered as a standalone learning experience for those focused on OpenShift Virtualization.
+====
+
+== Navigation
+
+* Modules
+// ** xref:00_introductions.adoc[Introductions & Bootcamp Agenda]
+** xref:03_ocpv_basics.adoc[OpenShift Virtualization Basics]
+** xref:module-03.adoc[Network Management]
+** xref:module-02.adoc[Storage Management]
+** xref:module-04.adoc[Introduction to Virtual Machine Customization]
+** xref:VMs-and-gitops.adoc[GitOps and Virtual Machines]
+** xref:openshift-virtualization-migration-installation.adoc[OpenShift Virtualization Migration Installation]
+** xref:preparing-for-migrations.adoc[Preparing for Migrations]
+** xref:running-a-migration.adoc[Running a Migration]
+** xref:running-a-customized-migration.adoc[Running a Customized Migration]
+// ** xref:running-vma-tool-analysis.adoc[Running VMA Tool Analysis]
+// ** xref:24_presales.adoc[Module: Pre Sales Resources]
+* xref:04_thanks.adoc[Thank you and next steps]
+
+== Environment Variables 
+
+[horizontal]
+Bastion Node Public Hostname:: {bastion_public_hostname}
+Bastion Node SSH Password:: {bastion_ssh_password}
+Bastion Node SSH Port:: {bastion_ssh_port}
+Bastion SSH User Name:: {bastion_ssh_user_name}
+Cloud Provider:: {cloud_provider}
+Lab GUID:: {guid}
+OpenShift API Server URL:: {openshift_api_server_url}
+OpenShift API URL:: {openshift_api_url}
+OpenShift Client Download URL:: {openshift_client_download_url}
+OpenShift Cluster Admin Password:: {openshift_cluster_admin_password}
+OpenShift Admin Username:: {openshift_cluster_admin_username}
+OpenShift Console URL:: {openshift_cluster_console_url}
+OpenShift Cluster Ingress Domain:: {openshift_cluster_ingress_domain}
+OpenShift Cluster User:: {openshift_cluster_user_base}
+OpenShift Cluster User Password:: {openshift_cluster_user_password}
+OpenShift KubeAdmin Password:: {openshift_kubeadmin_password}
+

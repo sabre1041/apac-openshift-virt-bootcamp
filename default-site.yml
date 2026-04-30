@@ -1,0 +1,25 @@
+---
+site:
+  title: Experience Red Hat OpenShift Virtualization
+  start_page: modules::00_introductions.adoc
+
+content:
+  sources:
+  - url: .
+    start_path: content
+
+ui:
+  bundle:
+    url: https://github.com/rhpds/rhdp_showroom_theme/releases/download/v2.0.2/ui-bundle.zip
+
+runtime:
+  cache_dir: ./.cache/antora
+
+output:
+  dir: ./www
+
+antora:
+  extensions:
+  - id: dev-mode
+    require: ./content/lib/dev-mode.js
+    enabled: false

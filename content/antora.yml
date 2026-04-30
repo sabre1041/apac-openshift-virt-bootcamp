@@ -1,0 +1,14 @@
+name: modules
+title: APAC OpenShift Virtualization Bootcamp
+version: master
+nav:
+  - modules/ROOT/nav.adoc
+
+asciidoc:
+  attributes:
+    lab_name: "I'm the lab_name var"
+    release-version: master
+    page-pagination: true
+    openshift_virtualization_ee_image: quay.io/redhat-cop/openshift-virtualization-migration-ee:2.6
+    bootcamp_git_repo: https://github.com/sabre1041/apac-openshift-virt-bootcamp
+
