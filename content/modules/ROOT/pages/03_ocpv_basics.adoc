@@ -76,7 +76,7 @@ image::module-00/05_Create_VM_Button.png[link=self, window=blank, width=100%]
 
 . The wizard will appear showing the available pre-defined VM templates.
 +
-Reviewing the list of available templates you’ll notice that some have a blue badge which indicates "Source available". These are templates which are using the automatically downloaded and stored template disks reviewed in the previous page. If you were deploying in your own environment, you have the option of preventing these from being created and/or removing those source disks, followed by creating and uploading custom disks for your organization.
+Reviewing the list of available templates you'll notice that some have a blue badge which indicates "Source available". These are templates which are using the automatically downloaded and stored template disks. If you were deploying in your own environment, you have the option of preventing these from being created and/or removing those source disks, followed by creating and uploading custom disks for your organization.
 +
 image::module-00/06_Create_VM_Templates.png[link=self, window=blank, width=100%]
 
@@ -137,12 +137,16 @@ image::Create_VM_PVC/13_Fedora_Console.png[link=self, window=blank, width=100%]
 . Log in to the VM using the `fedora` user and the indicated password.
 +
 [TIP]
+====
 If you are using a non US or International Keyboard in your system, you could change the virtual machine settings to match your system's keyboard layout. To do this, in your VM console type the following command: `sudo localectl set-keymap <lang>`. For example, for German, the command will be: `sudo localectl set-keymap <de>`. For a complete list of available keymaps, you can run the command `localectl list-keymaps`.
-+
+
 Unfortunately this will most likely break the copy/paste functionality for username and password in the VNC console: this will switch keyboard mapping. When passwords contain affected characters, they will be entered wrong. For example, a password like yyf8-khyi-bbgt will be entered as zzf8-khzi-bbgt with a german keymap. You can verify that easily when pasting the password to the login prompt, where it will be visible. The serial console is not affected.
+====
 +
 [IMPORTANT]
+====
 You can click on `Paste to Console` to paste contents of your clipboard into the Virtual Machine.
+====
 +
 [IMPORTANT]
 If the `Paste` functionality is not working, take into consideration that the console input is using US keymap. One small trick is to write in the login the password to ensure you are writing the proper characters (specifically that the `-` character is correct).
