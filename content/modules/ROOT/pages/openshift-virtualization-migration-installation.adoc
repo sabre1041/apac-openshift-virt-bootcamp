@@ -368,9 +368,9 @@ error: no token is currently in use for this session
 
 You can authenticate to OpenShift by running the following command:
 
-[source,shell]
+[source,shell,subs="attributes",role=execute]
 ----
-oc login --insecure-skip-tls-verify=true -u ${openshift_cluster_admin_username} -p ${openshift_cluster_admin_password} ${openshift_api_server_url}
+oc login --insecure-skip-tls-verify=true -u {openshift_cluster_admin_username} -p {openshift_cluster_admin_password} {openshift_api_server_url}
 ----
 
 ====
