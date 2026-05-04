@@ -189,6 +189,11 @@ Once again, be sure to update `<ID>` in the `vms` property with your student ID.
 
 Perform the migration by running the playbook using `ansible-navigator` using the following command, running it from the root of the bootcamp git repository.
 
+[NOTE]
+====
+Before running the following command, be sure that you have a valid OpenShift API token that is authenticated to your OpenShift environment. If the token has expired, use `oc login` to obtain a new token.
+====
+
 [source,shell,subs="attributes",role=execute]
 ----
 ansible-navigator run \
